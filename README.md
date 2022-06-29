@@ -6,6 +6,6 @@
 ## Also in the top of the page, the current date is displayed for a more accurate planning.
 ## Finally the input box displays different colors (green, salmon or gray) depending on what time of day the website is being used.
 
-### [Password Generator Link](https://pargasparedes.github.io/DailyPlanner/)
+### [Daily Planner Link](https://pargasparedes.github.io/DailyPlanner/)
 
 ### ![Screenshot](./Assets/Work-Day-Scheduler.png)
