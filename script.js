@@ -21,42 +21,42 @@ if (hour > timeTest) {
 
 // Functions to save events in the local storage
 document.getElementById("btnNine").addEventListener("click", function(){
-    window.localStorage.setItem("nueve", $("#9am").val());
+    window.localStorage.setItem("9", $("#9am").val());
 })
 
 document.getElementById("btnTen").addEventListener("click", function(){
-    window.localStorage.setItem("diez", $("#10am").val());
+    window.localStorage.setItem("10", $("#10am").val());
 })
 
 document.getElementById("btnEleven").addEventListener("click", function(){
-    window.localStorage.setItem("once", $("#11am").val());
+    window.localStorage.setItem("11", $("#11am").val());
 })
 
 document.getElementById("btnTwelve").addEventListener("click", function(){
-    window.localStorage.setItem("doce", $("#12pm").val());
+    window.localStorage.setItem("12", $("#12pm").val());
 })
 
 document.getElementById("btnOne").addEventListener("click", function(){
-    window.localStorage.setItem("trece", $("#13pm").val());
+    window.localStorage.setItem("13", $("#13pm").val());
 })
 
 document.getElementById("btnTwo").addEventListener("click", function(){
-    window.localStorage.setItem("catorce", $("#14pm").val());
+    window.localStorage.setItem("14", $("#14pm").val());
 })
 
 document.getElementById("btnThree").addEventListener("click", function(){
-    window.localStorage.setItem("quince", $("#15pm").val());
+    window.localStorage.setItem("15", $("#15pm").val());
 })
 
 document.getElementById("btnFour").addEventListener("click", function(){
-    window.localStorage.setItem("dieciseis", $("#16pm").val());
+    window.localStorage.setItem("16", $("#16pm").val());
 })
 
 document.getElementById("btnFive").addEventListener("click", function(){
-    window.localStorage.setItem("diecisiete", $("#17pm").val());
+    window.localStorage.setItem("17", $("#17pm").val());
 })
 
 // Function to print saved data on the website
 $(".timeDay").each(function(index) {
-    $(this).text(localStorage.getItem(localStorage.key(index)));
+    $(this).text(localStorage.getItem(index + 9));
 });
