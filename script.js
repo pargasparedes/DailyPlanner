@@ -57,3 +57,6 @@ document.getElementById("btnFive").addEventListener("click", function(){
 })
 
 // Function to print saved data on the website
+$(".timeDay").each(function(index) {
+    $(this).text(localStorage.getItem(localStorage.key(index)));
+});
